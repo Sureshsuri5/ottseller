@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:250px;
+    background-color: bisque;
+}
+.login-container{
+    background-color: rgb(77, 161, 161);
+    height:300px;
+    width:300px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 10px rgb(164, 127, 127);
+    
+}
+
+.login-form{
+    padding:60px 15px 15px 35px;
+    font-weight: bold;
+   
+    border:none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.input-mail{
+    color:black;
+    margin-top:4px;
+    border-radius: 4px;
+    border:none;
+}
+
+.input-pass{
+    margin-top: 4px;
+    border-radius: 4px;
+    border:none;
+}
+
+.login-button{
+    margin:8px 45px;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: rgb(141, 128, 112);
+    font-family: cursive;
+}
